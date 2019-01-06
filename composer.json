@@ -26,6 +26,18 @@
             "type": "vcs",
             "url": "https://github.com/kouosl/portal-site.git"
         },
+		{
+        "type": "vcs",
+        "url": "https://github.com/kouosl/portal-gii.git"
+    },
+		{
+        "type": "vcs",
+        "url": "https://github.com/kouosl/portal-gii.git"
+    },
+	 {
+            "type": "vcs",
+            "url": "https://github.com/fnguneri/portal-dosyayonetimi.git"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/kouosl/portal-user.git"
@@ -53,7 +65,8 @@
         "kouosl/portal-site": "dev-develop",
         "kouosl/portal-user": "dev-develop",
         "kouosl/portal-menu": "dev-develop",
-        "kouosl/portal-content": "dev-develop"
+        "kouosl/portal-content": "dev-develop",
+		"kouosl/portal-dosyayonetim": "dev-develop"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -62,6 +75,7 @@
         "kouosl/portal-gii": "dev-develop",
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1"
+		
     },
     "config": {
         "process-timeout": 1800,

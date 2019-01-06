@@ -56,10 +56,10 @@ Vagrant.configure(2) do |config|
     mount_options: ["dmode=775,fmode=664"]
     
  # sync: folder '../dev' (host machine) -> folder '/var/www/dev' (guest machine)
-  #config.vm.synced_folder '../dev', '/var/www/dev', id: "vagrant-dev",
-  #  owner: "vagrant",
-  #  group: "www-data",
-  #  mount_options: ["dmode=775,fmode=664"]
+  config.vm.synced_folder '../advanced', '/var/www/advanced', id: "vagrant-advanced",
+    owner: "vagrant",
+    group: "www-data",
+    mount_options: ["dmode=775,fmode=664"]
 
   # disable folder '/vagrant' (guest machine)
   config.vm.synced_folder '.', '/vagrant', disabled: true
